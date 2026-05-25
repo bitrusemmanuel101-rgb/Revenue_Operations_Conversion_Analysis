@@ -5,9 +5,9 @@
 
 ## Business Problem
 
-A sales organization had strong pipeline volume but was generating below-benchmark revenue. The gap between pipeline size and actual revenue pointed to a conversion efficiency problem — but the specific causes were hidden inside the data.
+A sales organization had strong pipeline volume but was generating below-benchmark revenue. The gap between pipeline size and actual revenue pointed to a win efficiency problem — but the specific causes were hidden inside the data.
 
-The goal: identify exactly where and why conversion was breaking down from, and build a reporting infrastructure that makes revenue performance visible in real time.
+The goal: identify exactly where and why wins were breaking down from, and build a reporting infrastructure that makes revenue performance visible in real time.
 
 ---
 
@@ -16,8 +16,8 @@ The goal: identify exactly where and why conversion was breaking down from, and 
 **Domain:** Revenue Operations / Sales Operations  
 **Tools:** Microsoft Excel (Power Query, Power Pivot, DAX), Excel Dashboard  
 **Data Sources:** SQL databases, CSV files, PDF reports  
-**Scope:** Full pipeline conversion analysis (March 2025-March 2026, with focus on Q4 2025 - Q1 2026) with dashboard delivery  
-**Relevance to Payments/Fintech:** Directly mirrors merchant acquisition analytics, onboarding conversion tracking, and revenue operations functions within fintech platforms
+**Scope:** Full pipeline win rate analysis (March 2025-March 2026, with focus on Q4 2025 - Q1 2026) with dashboard delivery  
+**Relevance to Payments/Fintech:** Directly mirrors merchant acquisition analytics, onboarding win rate tracking, and revenue operations functions within fintech platforms
 
 ---
 
@@ -68,12 +68,12 @@ Built Sales Performance Tracker Dashboard with:
 ## Key Findings
 
 **Finding 1 — Regional Performance Gaps of 15-20 Percentage Points**
-Significant conversion rate variance across regions — highest-performing regions (50.31%)converting at 10-15 percentage points above lowest-performing regions (36.51%). Not a market problem — a process and capability problem.
+Significant win rate variance across regions — highest-performing regions (50.31%)converting at 10-15 percentage points above lowest-performing regions (36.51%). Not a market problem — a process and capability problem.
 
-**Finding 2 — Rep-Level Conversion Bottlenecks**
-Bottom-quartile reps were disproportionately dragging overall conversion rates. The gap between top and bottom performers (~59% Points) was masking underlying pipeline health.
+**Finding 2 — Rep-Level win rate Bottlenecks**
+Bottom-quartile reps were disproportionately dragging overall win rates. The gap between top and bottom performers (~59% Points) was masking underlying pipeline health.
 
-**Finding 3 — Pipeline Velocity Was Strong — Conversion Was Weak**
+**Finding 3 — Pipeline Velocity Was Strong — Wins Were Weak**
 Leads were entering the pipeline at a healthy rate. The failure was happening at the qualification and closing stages — indicating a skills and process gap rather than a demand gap.
 
 **Finding 4 — No Consistent Qualification Criteria**
@@ -103,7 +103,7 @@ Establish regional benchmarks and regular performance review cadence — making 
 ## Business Impact
 
 - Win rate improvement: **46% → 78%**
-- Bottom-quartile conversion improvement: **36% → 90%+**
+- Bottom-quartile win rate improvement: **36% → 90%+**
 - Individual rep performance improvement modeled at **25% to 140%**
 - Company revenue increase potential: **25-50%**
 
@@ -115,7 +115,7 @@ This project directly mirrors key functions in fintech Revenue Operations:
 
 | Sales Ops Concept | Payments/Fintech Equivalent |
 |-------------------|----------------------------|
-| Lead conversion rate | Merchant onboarding conversion rate |
+| Lead win rate (Pipeline) | Merchant onboarding conversion rate |
 | Pipeline by region | Merchant acquisition by geographic corridor |
 | Rep performance analysis | Agent/field team performance analysis |
 | Deal qualification | Merchant risk and eligibility screening |
